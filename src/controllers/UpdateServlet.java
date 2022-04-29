@@ -14,10 +14,10 @@ import models.Task;
 import utils.DBUtil;
 
 @WebServlet("/update")
-public class Update extends HttpServlet {
+public class UpdateServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    public Update() {
+    public UpdateServlet() {
         super();
     }
 
